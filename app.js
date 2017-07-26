@@ -6,7 +6,7 @@
                         .done(function (result) {
                             
                                 for(var i=0;i< result.data.length;i++){
-                                var div = document.querySelector('.col');
+                                var div = document.querySelector('.image');
                                 var img = document.createElement('img');
                                 
                                 img.src = result.data[i].images.original.url;

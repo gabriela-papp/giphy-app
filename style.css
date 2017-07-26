@@ -12,3 +12,28 @@ h1{
     text-align: center;
     margin:50px auto; 
 }
+.container-fluid{
+    margin: 0 auto;
+    width: 95%;
+}
+.image{
+    width: 100%
+}
+.thumb{
+    width: 30%;
+    margin: 10px;
+}
+.thumb img{
+    width: 100%;
+}
+@media screen and (max-width:750px){
+    .thumb{
+        width: 45%;
+    }
+}
+@media screen and (max-width:525px){
+    .thumb{
+        width: 100%;
+        margin-bottom:  10px;
+    }
+}
