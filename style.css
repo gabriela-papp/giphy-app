@@ -26,14 +26,3 @@ h1{
 .thumb img{
     width: 100%;
 }
-@media screen and (max-width:750px){
-    .thumb{
-        width: 45%;
-    }
-}
-@media screen and (max-width:525px){
-    .thumb{
-        width: 100%;
-        margin-bottom:  10px;
-    }
-}
