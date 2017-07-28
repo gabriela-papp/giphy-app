@@ -10,8 +10,8 @@
                                 var img = document.createElement('img');
                                 
                                 img.src = result.data[i].images.original.url;
-                                img.className = 'thumb';
-                                img.style.width = '200px';
+                                img.className = 'thumb col col-md-4 col-xs-';
+                                
                                 div.appendChild(img);
                             }
                             });
